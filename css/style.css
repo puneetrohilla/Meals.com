@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+.navbar a {
+  color: orange;
+  text-decoration: none;
+  font-size: 25px;
+}
+.navbar .logo {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar {
+  overflow-x: hidden;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+.sidebar2 {
+  overflow-x: hidden;
+  width: 0px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+.sidebar h1 {
+  font-weight: bold;
+}
+.sidebar a {
+  color: gray;
+  padding: 20px;
+  text-decoration: none;
+}
+.sidebar ul li {
+  margin: 40px 0px 50px 40px;
+  list-style-type: none;
+}
+.sidebar h1 {
+  display: block;
+  margin-left: 20%;
+  margin-top: 57px;
+}
+.bar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.bar a {
+  font-weight: bold;
+  color: orange;
+  font-size: 25px;
+}
+.sidebar .btn {
+  width: 100px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  margin-left: 40px;
+}
+.container {
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 75vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .rightnav {
+  width: 300px;
+  height: 11vh;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+.containerCards {
+  min-height: 60vh;
+  width: 75vw;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  min-height: 250px;
+  width: 200px;
+  background-color: rgb(245, 242, 245);
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.card img {
+  width: 144px;
+  height: 105px;
+  border-radius: 50% 50%;
+  padding: 20px 20px 15px 20px;
+}
+.card p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.active {
+  text-decoration-style: solid;
+  text-decoration: line-through;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card p img{
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.rupees{
+  
+  text-align: center;
+  padding-top: 10px;
+}
